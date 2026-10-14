@@ -8,19 +8,19 @@ Positioning: product-focused software engineering for intelligent business infra
 
 ## Current state
 
-Public repository created under Pragmatic-Ts on 2026-10-14. Browser and connected account confirm organization access. Company profile updated. Foundation content prepared; final verification evidence is recorded in docs/VERIFICATION.md.
+Public repository created under Pragmatic-Ts on 2026-10-14. Browser and connected account confirm organization access. Company profile updated. All 39 foundation files published and anonymously read back exactly. Foundation validation passed on GitHub; profile and all three issue forms rendered correctly. Detailed evidence is recorded in docs/VERIFICATION.md.
 
 ## Implementation ledger
 
 | Task | Status | Evidence / remaining work |
 | --- | --- | --- |
-| Company positioning and principles | implemented_unverified | Profile saved; prepared profile README and principles. Verify public rendering after publication. |
-| Engineering constitution and readiness | implemented_unverified | Architecture, quality, security, testing, documentation, delivery and operations documented. |
-| Discoverable agent guidance | implemented_unverified | Root instructions plus explicit per-product adoption kit. |
-| Community templates | implemented_unverified | Three issue forms, PR template and community defaults. |
-| Product planning kit | implemented_unverified | Product contract, architecture, runbook, ADR/task templates and structural checker. |
-| CI and workflow templates | implemented_unverified | Read-only pinned workflows; final local and hosted checks pending. |
-| Publication and verification | in_progress | Publish one reviewed coherent commit, verify remote files and hosted workflow. |
+| Company positioning and principles | verified | Company profile saved; public organization README rendered with accepted positioning. |
+| Engineering constitution and readiness | verified | Published standards and readiness gates read back exactly; documentation checked. |
+| Discoverable agent guidance | verified | Root AGENTS.md and product-root adoption instructions published and read back. |
+| Community templates | verified | All three issue forms rendered in GitHub; PR template and community defaults published/read back. |
+| Product planning kit | verified | Stack-neutral contract, architecture, runbook, ADR/task templates and checker published; regression checks passed. |
+| CI and workflow templates | verified | All three workflows pass actionlint; hosted Foundation validation succeeds. Product CI remains opt-in and unexecuted against products. |
+| Publication and verification | verified | Source commit 9cee609 published; all 39 files anonymously read back; hosted CI and browser verification pass. |
 
 ## Build and verification contract
 
@@ -35,7 +35,7 @@ Checks validate the foundation and planning structure, not product application b
 
 ## Next tasks and blockers
 
-Finish verification and record exact results before stopping. Product-specific adoption, repository rules and production release acceptance are separate work requiring product owners and actual product requirements.
+Foundation setup is complete and checkpointed. Next authorized work would be adoption in a new product repository after its owner defines users, problem evidence, scope, architecture, roadmap and success criteria. No product is invented here. Product repository rules and production release acceptance remain separate tasks; no existing product repositories were changed.
 
 ## Executed checks
 
