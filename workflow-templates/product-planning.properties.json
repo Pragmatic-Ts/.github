@@ -1,0 +1,8 @@
+{
+  "name": "Pragmatic-Ts product planning",
+  "description": "Check the product contract structure. Copy scripts/validate_project.py from the product kit first.",
+  "iconName": "octicon checklist",
+  "filePatterns": [
+    "^PROJECT\\.md$"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Pragmatic-Ts Node.js product CI",
+  "description": "Required lint, strict types, tests and production build for npm products. Needs .node-version, lockfile and real scripts.",
+  "iconName": "octicon check-circle",
+  "categories": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "filePatterns": [
+    "^package\\.json$"
+  ]
+}

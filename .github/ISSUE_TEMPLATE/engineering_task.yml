@@ -1,0 +1,34 @@
+name: Engineering task
+description: Plan bounded implementation, maintenance or reliability work.
+title: "[Task]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and rationale
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification plan
+      description: Meaningful checks, environment and any live acceptance needed.
+    validations:
+      required: true
+  - type: textarea
+    id: coordination
+    attributes:
+      label: Owner, priority, dependencies and next action
+      description: Propose P0/P1/P2/P3; the accountable owner confirms priority.
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk, deployment and recovery

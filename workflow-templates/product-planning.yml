@@ -1,0 +1,22 @@
+name: Product planning validation
+on:
+  push:
+    branches: ["$default-branch"]
+  pull_request:
+    branches: ["$default-branch"]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  planning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Validate planning structure
+        run: python3 scripts/validate_project.py

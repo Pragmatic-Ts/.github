@@ -1,0 +1,36 @@
+name: Product or feature proposal
+description: Define users, evidence, scope and success before implementation.
+title: "[Proposal]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Users and problem evidence
+      description: Identify the user/buyer and distinguish observations from assumptions.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Intended outcome and alternatives
+      description: Current workaround, measurable value and simpler options.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and non-goals
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Success criteria and validation plan
+      description: Owner-approved outcomes and how to test them; no invented results.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Dependencies, economics and risks
+      description: Summarize safely. Keep private strategy, customer evidence and financial details private.
